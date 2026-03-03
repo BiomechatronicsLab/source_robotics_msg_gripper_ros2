@@ -87,7 +87,7 @@ pip install Spectral_BLDC python-can
 
 ```bash
 cd ~/ros2_ws/src
-git clone https://github.com/<your-org>/source_robotics_msg_gripper_ros2 msg_gripper_ros2
+git clone https://github.com/BiomechatronicsLab/source_robotics_msg_gripper_ros2.git
 cd ~/ros2_ws
 colcon build --packages-select msg_gripper_ros2
 source install/setup.bash
@@ -157,7 +157,7 @@ The feedback `JointState` contains:
 All tests are run with pytest from the package directory:
 
 ```bash
-cd ~/gripper_test/src/msg_gripper_ros2
+cd ~/src/source_robotics_msg_gripper_ros2/
 source /opt/ros/humble/setup.bash
 ```
 
@@ -301,6 +301,7 @@ msg_gripper_ros2/
 ├── LICENSE
 ├── README.md
 ├── CONTRIBUTING.md
+├── CODEOWNERS.md
 ├── msg_gripper_ros2/
 │   ├── __init__.py
 │   └── msg_gripper_node.py
@@ -321,7 +322,7 @@ msg_gripper_ros2/
 ## Contributing / Issues
 
 Bug reports and pull requests are welcome at:
-**https://github.com/\<your-org\>/source_robotics_msg_gripper_ros2/issues**
+**https://github.com/BiomechatronicsLab/source_robotics_msg_gripper_ros2/issues**
 
 Please include:
 - ROS2 distribution and OS version
